@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>эко продукт</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/tooplate-chilling-cafe.css" rel="stylesheet" />
+<!--
+  BASED ON:
+Tooplate 2118 Chilling Cafe
+https://www.tooplate.com/view/2118-chilling-cafe
+-->
+  </head>
+  <body>
+    <div class="tm-container">
+      <div class="tm-text-white tm-page-header-container">
+        <i class="fas fa-utensils fa-2x tm-page-icon"></i>
+        <h1 class="tm-page-header">ЭКО ПРОДУКТ</h1>
+        <h3 class="tm-page-subheader">Иркутск, Рабочего Штаба, 78</h2>
+        <h4 class="tm-page-subheader">+7 904 145 83 41, +7 950 073 85 40</h2>
+      </div>
+      <div class="tm-main-content">
+        <div id="tm-intro-img"></div>
+        <!-- Coffee Menu -->
+        <section class="tm-section">
+          <h2 class="tm-section-header">Основное меню</h2>
+          <div class="tm-responsive-table">
+            <table>
+              <tr class="tm-tr-header">
+                <th>&nbsp;</th>
+                <th>В кафе</th>
+                <th>На заказ</th>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Бууза (4 шт.)</td>
+                <td>100 р.</td>
+                <td>80 р.</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Плов с бараниной (100 гр.)</td>
+                <td>120 р.</td>
+                <td>100 р.</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- Tea Menu -->
+        <section class="tm-section">
+          <h2 class="tm-section-header">Чайная карта</h2>
+          <div class="tm-responsive-table">
+            <table>
+              <tr class="tm-tr-header">
+                <th>&nbsp;</th>
+                <th>В кафе</th>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Зеленый крупнолистовой (Фуцзянь, Китай)</td>
+                <td>100 р.</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Черный крупнолистовой (Индия)</td>
+                <td>90 р.</td>
+              </tr>
+              <tr>
+                <td class="tm-text-left">Улун (Фуцзянь и Юннань, Китай)</td>
+                <td>80 р.</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- Special Items -->
+        <section class="tm-section">
+          <h2 class="tm-section-header">Специальное предложение</h2>
+          <div class="tm-special-items">
+            <figure class="tm-special-item">
+              <div class="tm-special-container">
+                <img src="img/coffee-americano.jpg" alt="Image" class="tm-special-item-img" />
+              </div>
+              <figcaption>
+                <span class="tm-item-name">Кофе Американо</span>
+                <span class="tm-item-price">60 р.</span>
+              </figcaption>
+            </figure>
+            <figure class="tm-special-item">
+              <div class="tm-special-container">
+                <img src="img/coffee-cappuchino.jpg" alt="Image" class="tm-special-item-img" />
+              </div>
+              <figcaption>
+                <span class="tm-item-name">Кофе Каппучино</span>
+                <span class="tm-item-price">80 р.</span>
+              </figcaption>
+            </figure>
+            <figure class="tm-special-item">
+              <div class="tm-special-container">
+                <img src="img/coffee-latte.jpg" alt="Image" class="tm-special-item-img" />
+              </div>
+              <figcaption>
+                <span class="tm-item-name">Кофе Латтэ</span>
+                <span class="tm-item-price">100 р.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <hr />
+        <!-- About our cafe -->
+        <section class="tm-section tm-section-small">
+          <h2 class="tm-section-header">О нас</h2>
+          <p>
+            Мы специализируемся на приготовлении традиционных блюд - бурятских бууза и плова. Чайная карта представлена лучшими сортами зеленого и черного чая. Отлично приготовленный кофе подарит заряд свежести и энергии.
+          </p>
+          <p class="tm-mb-0">
+            Кафе располагается на втором этаже здания по адресу: Иркутск, Рабочего Штаба, 78. Мы будем рады видеть Вас !
+          </p>
+        </section>
+        <hr />
+        <!-- Talk to us -->
+        <section class="tm-section tm-section-small">
+          <h2 class="tm-section-header">Наш адрес</h2>
+          <p class="tm-mb-1">
+            Иркутск, Рабочего Штаба, 78 <br>
+            +7 904 145 83 41, +7 950 073 85 40
+          </p>
+        </section>
+      </div>
+      <footer>
+        <p class="tm-text-white tm-footer-text">
+          Copyright &copy; 2020 ЭКО ПРОДУКТ
+          . Design:
+          <a href="https://lp.qutuva.com" class="tm-footer-link">DLQ-team</a>
+        </p>
+      </footer>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+      $(function() {
+        // Adjust intro image height based on width.
+        $(window).resize(function() {
+          var img = $("#tm-intro-img");
+          var imgWidth = img.width();
+
+          // 640x425 ratio
+          var imgHeight = (imgWidth * 425) / 640;
+
+          if (imgHeight < 300) {
+            imgHeight = 300;
+          }
+
+          img.css("min-height", imgHeight + "px");
+        });
+      });
+    </script>
+  </body>
+</html>
