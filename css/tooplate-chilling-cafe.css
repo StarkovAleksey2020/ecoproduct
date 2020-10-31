@@ -354,7 +354,7 @@ a {
   }
   th {
     padding: 0 5px 0 5px;
-    font-size: 12px;
+    font-size: 14px;
   }
   td {
     font-size: 14px;
@@ -411,10 +411,10 @@ a {
   }
   th {
     padding: 0 3px 0 3px;
-    font-size: 11px;
+    font-size: 13px;
   }
   td {
-    font-size: 12px;
+    font-size: 13px;
     padding: 10px 3px;
   }
   figcaption {
