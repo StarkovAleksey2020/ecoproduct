@@ -374,6 +374,10 @@ a {
   .tm-text-left-1 {
     width: 70%;
   }
+  p {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
 }
 @media (max-width: 320px) {
   .tm-section {
@@ -426,5 +430,9 @@ a {
   }
   .tm-text-left-1 {
     width: 70%;
+  }
+  p {
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
 }
