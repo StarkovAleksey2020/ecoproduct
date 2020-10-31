@@ -333,7 +333,7 @@ a {
     overflow-x: auto;
   }
   table {
-    width: auto;
+    width: 100%;
   }
   .tm-special-items {
     flex-direction: column;
