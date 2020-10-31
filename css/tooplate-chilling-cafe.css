@@ -364,6 +364,13 @@ a {
   }
 }
 @media (max-width: 320px) {
+  .tm-section {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    width: 90%;
+  }
   .tm-responsive-table {
     overflow-x: auto;
   }
